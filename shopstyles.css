@@ -166,7 +166,9 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 /*product card styles*/
-
+.products{
+	padding-top: 40px;
+}
 .product{
 	margin-inline: 30px;
 	position: relative;
