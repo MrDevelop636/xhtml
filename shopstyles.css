@@ -1,0 +1,172 @@
+/*promo styles*/
+
+.promo {
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: yellow;
+text-align: center;
+font-size: 15px;
+padding-left: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.promo a{
+    border-color: black;
+    border-width: 1px;
+    border-style: none;
+    padding-right: 0;
+    text-decoration: none;
+    color: black;
+ }
+ .promo a:hover{
+    border-color: black;
+    border-width: 1px;
+    border-style: none;
+    padding-right: 0;
+    text-decoration: underline;
+    color: black;
+ }
+
+ /*end promo styles*/
+
+
+ /*footer styles*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+
+
+
+
+/*fonts*/
+ @font-face {
+    font-family: subjectivity;
+    src: url('../fonts/subjectivity.otf');
+}
+/*end fonts*/
+/*shop name styles*/
+
+.shopname {
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*end shop name styles*/
+/*left,right styles*/
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+/*end left,right styles*/
+
+/*icons*/
+/*Icon user*/
+.icon-user {
+    scale: 1.5;
+    margin-right: 165px;
+    float: right;
+    display: inline-block;
+}
+/*icon basket*/
+.icon-basket {
+    scale: 1.5;
+    margin-right: 80px;
+    float: right;
+    display: inline-block;
+}
+/*icon heart*/
+.icon-heart {
+    scale: 1.5;
+    margin-right: 80px;
+    float: right;
+    display: inline-block;
+}
+/*end icons*/
+/*icons span*/
+/*user icon span*/
+.icon-user span {
+    display: block;
+    padding-top: 5px;
+    font-size: 10px;
+}
+/*basket icon span*/
+
+.icon-basket span {
+    display: block;
+    padding-top: 5px;
+    font-size: 10px;
+}
+/*heart icon span*/
+.icon-heart span {
+    display: block;
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+/*menu*/
+
+
+.menu a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-inline: 10px;
+    
+    
+}
+.menu {
+    display: inline-flex;
+    margin-left: 158px;
+}
+.menutop .left {
+    float: left;
+    margin-left: 150px;
+}
+.menutop .right {
+    float: right;
+    margin-right: 150px;
+}
+
+.menutop {
+    padding-top: 5px;
+    }
+    .menutop a{
+        margin-top: 10px;
+        display: inline-block;
+        margin-inline: 20px;
+        text-decoration: none;
+        color: black;
+    }
+    .menutop a:hover{
+        display: inline-block;
+        margin-inline: 20px;
+        text-decoration: underline;
+        color: black;
+    }
+    
+/*end menu*/
+
+
+/*product card styles*/
+.products{
+    width:1200px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+.product{
+    text-align: center;
+    display: inline-block;
+    width: calc(15%);
+    margin-inline: 5px;
+}
+/*end product card styles*/
