@@ -48,6 +48,14 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: subjectivity;
     src: url('../fonts/subjectivity.otf');
 }
+@font-face {
+    font-family: WorkSans;
+    src: url(./WorkSans-Black.ttf);
+}
+@font-face {
+    font-family: PTMono;
+    src: url(./PTMono-Regular.ttf);
+}
 /*end fonts*/
 /*shop name styles*/
 
@@ -167,18 +175,127 @@ font-family: Arial, Helvetica, sans-serif;
 
 /*product card styles*/
 .products{
-	padding-top: 40px;
+    font-family: PTMono;
+	margin-top: 60px;
 }
-.product{
-	background-color: red;
-	margin-inline: 30px;
+.product img{
+    border-radius: 20px;
+}
+
+/*end product card styles*/
+/*product 1 css*/
+
+.product1{
+    padding-top: 20px;
+    background-image: url("https://placehold.co/280x450?text=Product%201");
 	position: relative;
 	left: 25%;
 	display: inline-block;
 	text-align: center;
-	height: 400px;
-	width: 250px;
+	height: 450px;
+	width: 280px;
+    margin-inline: 15px;
 	
 }
+.product1:hover{
+    padding-top: 20px;
+    background-image: url("https://placehold.co/280x450?text=Product%202");
+	position: relative;
+	left: 25%;
+	display: inline-block;
+	text-align: center;
+	height: 450px;
+	width: 280px;
+    margin-inline: 15px;
+    border-color: black;
+    border-width: 2px;
+    border-style:groove;
+	
+}
+.product1 .tooltip .icon {
+    text-align: right;
+    }
+/*end product 1 css*/
 
-/*end product card styles*/
+/*product 2 css*/
+.product2{
+    padding-top: 20px;
+    background-image: url("https://placehold.co/280x450?text=Product%203");
+	position: relative;
+	left: 25%;
+	display: inline-block;
+	text-align: center;
+	height: 450px;
+	width: 280px;
+    margin-inline: 15px;
+	
+}
+.product2:hover{
+	background-color: red;
+	position: relative;
+	left: 25%;
+	display: inline-block;
+	text-align: center;
+	height: 450px;
+	width: 280px;
+    margin-inline: 15px;
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+	
+}
+.product2 .tooltip .icon {
+    text-align: right;
+    }
+/*end product 2 css*/
+
+/*product 3 css*/
+.product3{
+    padding-top: 20px;
+    background-image: url("https://placehold.co/280x450?text=Product%203");
+	position: relative;
+	left: 25%;
+	display: inline-block;
+	text-align: center;
+	height: 450px;
+	width: 280px;
+    margin-inline: 15px;
+	
+}
+.product3:hover{
+	background-color: red;
+	position: relative;
+	left: 25%;
+	display: inline-block;
+	text-align: center;
+	height: 450px;
+	width: 280px;
+    margin-inline: 15px;
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+	
+}
+.product3 .tooltip .icon {
+    text-align: right;
+    }
+/*end product 3 css*/
+
+/*mobile css*/
+
+@media only screen and (max-width: 680px) {
+    .product{
+        border-radius: 15px;
+        background-color: red;
+        position: relative;
+        left: 20%;
+        display: inline-block;
+        text-align: center;
+        height: 380px;
+        width: 320px;
+        
+    }
+  }
+
+
+/*end mobile css*/
