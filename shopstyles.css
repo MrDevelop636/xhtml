@@ -124,6 +124,14 @@ font-family: Arial, Helvetica, sans-serif;
     
     
 }
+.menu a:hover{
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+    margin-inline: 10px;
+    
+    
+}
 .menu {
     display: inline-flex;
     margin-left: 158px;
@@ -158,15 +166,16 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 /*product card styles*/
-.products{
-    width:1200px;
-    margin-left: 170px;
-    margin-right: 170px;
-}
+
 .product{
-    text-align: center;
-    display: inline-block;
-    width: calc(15%);
-    margin-inline: 5px;
+	margin-inline: 30px;
+	position: relative;
+	left: 30%;
+	display: inline-block;
+	text-align: center;
+	height: 300px;
+	width: 200px;
+	
 }
+
 /*end product card styles*/
